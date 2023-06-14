@@ -3,3 +3,9 @@ version: 2
 seeds:
   - name: raw_customers
     description: description_raw_customers
+
+macros:
+  - name: get_meta_fields
+    description: "get_meta_fields"
+    docs:
+      show: true
