@@ -18,6 +18,7 @@ with
 
     ),
 
+
     customer_payments as (
 
         select orders.customer_id, sum(amount) as total_amount
