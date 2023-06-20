@@ -4,7 +4,6 @@ with
     orders as (select * from {{ ref("stg_orders") }}),
 
     payments as (select * from {{ ref("stg_payments") }}),
-
     customer_orders as (
 
         select
@@ -18,6 +17,7 @@ with
         group by customer_id
 
     ),
+
 
     customer_payments as (
 
