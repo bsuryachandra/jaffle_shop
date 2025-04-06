@@ -2,6 +2,8 @@ version: 2
 
 models:
   - name: stg_customers
+    config:
+      group: finance
     columns:
       - name: customer_id
         tests:
