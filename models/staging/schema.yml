@@ -11,6 +11,8 @@ models:
           - not_null
 
   - name: stg_orders
+    config:
+      group: marketing
     columns:
       - name: order_id
         tests:
