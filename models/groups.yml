@@ -1,0 +1,15 @@
+version: 2
+
+groups:
+  - name: finance
+    owner:
+      # Email is required to receive model-level notifications, additional properties are also allowed.
+      name: "Finance team"
+      email: bchandra@phdata.io
+      favorite_food: donuts
+
+  - name: marketing
+    owner:
+      name: "Marketing team"
+      email: marketing@dbtlabs.com
+      favorite_food: jaffles
